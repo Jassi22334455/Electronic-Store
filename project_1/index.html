@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="conatainer">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/nordi.png" width="120px">
+                </div>
+
+                <div class="search-box">
+                    <form action="" onsubmit="return false">
+                        <input type="text" id="search" placeholder="Search Product">
+                        <button id="btn-search"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html"   target="_blank">Home</a></li>
+                        <li><a href="search.index.html" >Products</a>
+
+                            <i class="fa fa-caret-down"></i>
+
+                        </li>
+                        <li><a href="about.html" >About</a></li>
+                        <li><a href="contact.html" >Contact</a></li>
+                        <li><a href="login.html" >Login</a></li>
+                        <li><a href="signUp.html" >Sign Up</a></li>
+                       </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px" >
+                <img src="images/menu.png"  class="menu-icon" onclick="menutoggle()" >
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1> Give Your Workout<br> A New Style</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Recusandae quisquam repudiandae
+                        praesentium
+                        neque quas laboriosam quaerat nemo consectetur eum,<br> eaque voluptates molestias repellendus
+                        nihil!
+                        Earum sed temporibus nam vel tempore!</p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+                </div>
+
+                <div class="col-2">
+                    <img src="images/image1.png" alt="no">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ---------------------------------- featured category--------------- -->
+
+    <div class="categories">
+        <div class="small-container">
+
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png"=>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png"=>
+                    </div>
+
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png"=>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-white.png"=>
+                    </div>
+                </div>
+
+
+            </div>
+            <h2 class="title">Featured Category</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg " alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------featured products---------------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/CEPC/Tablets/Tablets_in_Focus/Tiles_564X564_B097C4QYKC.jpg">
+                <h4>Laptop</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/CEPC/Tablets/Tablets_in_Focus/Tiles_564X564_B09P8N28R7.jpg">
+                <h4>Tablet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Tablets/Revamp/xcm_banners_ss1_420x420_in-en.jpg">
+                <h4>Mobile</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+
+            <div class="col-4">
+                <img src="https://m.media-amazon.com/images/I/61RdLS1lGBL._SX522_.jpg">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4><T-shirt></T-shirt></h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+
+
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg">
+                    <h4>Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg">
+                    <h4>Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-11.jpg">
+                    <h4>Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+
+
+                <div class="col-4">
+                    <img src="images/product-12.jpg">
+                    <h4>Wear</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+
+
+
+            </div>
+            <!-- ------------------------------------- offfer -->
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/exclusive.png" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusively Available on Electronic Store</p>
+                            <h1>Smart Band</h1>
+                            <small>The Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quam amet
+                                sapiente ab eius adipisci maiores est quaerat commodi neque tempora deserunt, itaque,
+                                velit ducimus repellendus nulla aspernatur officiis eligendi.
+                            </small>
+                            <a href="" class="btn"> Buy Now &#8594</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------------------------ testimonial -->
+
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem, sit
+                                reiciendis ipsa obcaecati quisquam explicabo impedit perspiciatis dicta officia!</p>
+
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-1.png">
+                            <h3>Simon Parker</h3>
+
+                        </div>
+
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem, sit
+                                reiciendis ipsa obcaecati quisquam explicabo impedit perspiciatis dicta officia!</p>
+
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-2.png">
+                            <h3>William Parker</h3>
+
+                        </div>
+
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem, sit
+                                reiciendis ipsa obcaecati quisquam explicabo impedit perspiciatis dicta officia!</p>
+
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-3.png">
+                            <h3>Merry Jay</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- `````````--------------------------footer------------- -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="held">
+                        <div class="footer-col-1">
+                           <h3> <img src="images/nordi.png" alt=""></h3>
+                           <div class="ifream">
+                        <img src="https://cdn-icons.flaticon.com/png/128/3249/premium/3249904.png?token=exp=1660281272~hmac=c9e71d7898897694ee0b3c84047afd94" alt="">
+
+                           </div>
+
+                            <p>Got questions? Call us 24/7!.<br>
+                                (800) 8001-8588, (0600) 874 548
+
+                            </p>
+                            <h2>Contact info</h2>
+                            <p class="wer"> 24 Kathi Road,Chandigarh, Punjab 140111</p>
+<div class="full">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+</div>
+                                <!-- <div class="app-logo">
+                                    <img src="images/play-store.png" >
+                                    <img src="images/app-store.png" >
+                                </div> -->
+                        </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="images/nordi.png" >
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime natus rem molestias,
+                                blanditiis odio hic ex, molestiae unde eveniet tempora tempore laborum fuga laboriosam
+                                iure in vel culpa quis? Ea.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>Youtube</li> 
+                                <li>Join Affiliate</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2022 --Easy Tutorials</p>
+                </div>
+            </div>
+
+            <!-- -------------------javascript for toggle menu -->
+            <script>
+                var MenuItems = document.getElementById("MenuItems");
+                MenuItems.style.maxHeight = "0px";
+                function menutoggle(){
+                    if (MenuItems.style.maxHeight = "0px"){
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                    else{
+                        MenuItems.style.maxHeight = "0px";
+                    }
+                }
+
+                const btns = document.querySelectorAll('.btn');
+const col-4 = document.querySelectorAll('.col-4');
+// const search = document.getElementById(search);
+
+for (i = 0; i < btns.length; i++) {
+
+    btns[i].addEventListener('click', (e) => {
+        e.preventDefault()
+        
+        const filter = e.target.dataset.filter;
+        console.log(filter);
+        
+        col-4.forEach((product)=> {
+            if (filter === 'all'){
+                product.style.display = 'block'
+            } else {
+                if (product.classList.contains(filter)){
+                    product.style.display = 'block'
+                } else {
+                    product.style.display = 'none'
+                }
+            }
+        });
+    });
+};
+
+// SEARCH FILTER
+const search = document.getElementById("search");
+const productName = document.querySelectorAll(".col-4 h4");
+
+// A BETTER WAY TO FILTER THROUGH THE PRODUCTS
+search.addEventListener("keyup", filterProducts);
+
+
+function filterProducts(e) {
+    const text = e.target.value.toLowerCase();
+    // console.log(productName[0]);
+    productName.forEach(function(product) {
+        const item = product.firstChild.textContent;
+        if (item.toLowerCase().indexOf(text) != -1) {
+            product.parentElement.parentElement.style.display = "block"
+        } else {
+            product.parentElement.parentElement.style.display = "none"
+        }
+    })
+}
+
+
+
+// This code has been replaced by the function(filterProducts) above which does a better job
+
+// search.addEventListener("keyup", (e) => {
+//     e.preventDefault();
+//     const searchValue = search.value.toLowerCase().trim();
+//     // alert(search.value);
+
+    
+//     for (i = 0; i < storeProducts.length; i++) {
+//         if (storeProducts[i].classList.contains(searchValue)) {
+//             storeProducts[i].style.display = 'block';
+//         } else if (searchValue == "") {
+//             storeProducts[i].style.display = 'block';
+//         } else {
+//             storeProducts[i].style.display = 'none';    
+//         }
+
+//     //    if (searchValue == "") {
+//     //     storeProducts[i].style.display = 'block';
+//     //    }
+        
+//     }
+
+// })
+            </script>
+
+</body>
+
+</html>
